@@ -1,0 +1,12 @@
+import openai
+import os
+
+openai.organization = "org-3afgCYP6KTHZic6sF9nBXAAt"
+openai.api_key = "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"
+
+openai.Completion.create(
+    model=ft-user-dvf3iz6x3wm1hdsilhc1zfjz-2021-11-09-17-38-36,
+    prompt=YOUR_PROMPT)
+
+# openai api completions.create -m ada:ft-user-dvf3iz6x3wm1hdsilhc1zfjz-2021-11-11-18-03-22 -p <YOUR_PROMPT>
+
