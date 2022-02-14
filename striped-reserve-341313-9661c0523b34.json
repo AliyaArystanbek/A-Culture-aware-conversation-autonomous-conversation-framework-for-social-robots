@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "striped-reserve-341313",
+  "private_key_id": "9661c0523b34981af7610773cbf2ae63d8f927e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDN0igFZ7AqxjTZ\nqsk0UCQoDucNxznGwMFXL4uN2E5jXFOA5IEy+4AgGoTk6fLNo7a692sTAaowIZkJ\neLIXJKUvxcpZRNUyMBuN4EnM93WyX/cAsjgJa/1RBoEP3CXlNflSGz9UU1SNbaXI\n0ST53dYkerkCltRsViZBxwGhPF8SWHVh18ZQfRM3hlDY63fh60t+yQ18W+Fp6OFQ\n+gcP1KKjvr0Iuo+53vylU067KtBs+Rx2bdorqyURJ97rebhjkKMRVAmp1yJeA3pB\nWAO4t7mwU9AHt8tph/+XP/q1p6yVILxxrL7oqVidrgHzcQr5qgSl/a2cxos+xlhc\nfUHOO5wBAgMBAAECggEAVus73IB73KyEsDGYM9/uTP5yJBbw9tb7L1MUV8wz2nEo\nkIOvbjTY2HXqjnOgBqjvJ8kJ7mZjFV1y8BWI/A4NNn4MZKOVd1LqqAFCmW0dxr0R\nJjmdQZlZyoh5I5YAaOpgxoRcO8PPLsTR4Ns2BtFguFodXJMO1UuSb2/X59wDeE6i\nK+jivTwYKg/OHzTVve4Icon/mU0/ad3Gukk9aD9AEIGnYxNrToZT2orQiK4dHaQM\nSFkoze5dE38FDbEpbW62Q+lEDgnLDqDwk/W36XUibC8VReJQhZPFljndnT3ayS35\nMDmb2rsbBupbWpzIm7UI321+2Eysag6jnZrCEQ16kwKBgQDoN1yAZl209cjRmUye\nZT80x81HGM/4KZ6OAYCMGi5x8rAhB8QIMBAwmNNz9m2E7LJcwCsKu2R2YA1dOI8l\nvD1w+jUcEOZdjt08a7nobqu0dYTxiUXY+1O+gA9f0jLUykqLv3Ftn5EJc+tlRFC5\nYfD2RUyO3eavDCsoeTkq44euxwKBgQDi5revsXqP6ZmRxo5OkUvrpIyep2UJhIrT\n2BMjuuvVR2Ldub3udLU7YTT0R4BdP7rzAdwJAz0hyZUBQVif/tcHuIc5REBdzONK\nRYlZ9YlSq4suFo5XA1NRZKutwJgwxQ2e04ObpnGMVgMPx1hqj/hkleI14rxHc2La\nybznOOw29wKBgQDXdN5fyBrz1wSv7MPZR2mgyC2f5Na5k6woaB5kX7puQVXIH9N0\nIVw0Kugu9RtitNc9FZQaDgrFhpN/xgWTZpe/Zne2hbuoXPDKqc1BasXn1w41qT9k\ndrSZ0WnyZy6Anv0RstxEcUP5+FMVj5AyoTwY0+2XtS3fhrPYhrlTIO94awKBgDdz\nStCU/u7Ml8sYSw7IU1VzESp0niyFR6gd1g+VTq0AlRi6m7/6pY+tYdOQ5b3kJTvd\n6HgLYpUvPkrgPVhcXxBz+Bf2pgRGXgV4mOhzKOwbIBhTStXY6jOp9oqv1oGUpo96\nAV+4fWdeXcEtZl4kcP+j4XRpxLlxaWcuhgu7zX5hAoGBAIS0gstM3EVfIlCeYR7y\n+7nzmXBP5S4T1Crquuo5hcvIQYhmD9kAoC8k1OqVHfRo04W0p1e8/YMFIGt2v+ib\n58of4Y45hxG4MR8RcCkLC+ZrcRo1UGfRa7+cB0/JsnbiNvldk/vdD3sAfboxYZH8\nAV30pLOFZvNGWvbKT2E/z9G3\n-----END PRIVATE KEY-----\n",
+  "client_email": "cair-2022@striped-reserve-341313.iam.gserviceaccount.com",
+  "client_id": "111534410549045589910",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cair-2022%40striped-reserve-341313.iam.gserviceaccount.com"
+}
