@@ -1,0 +1,16 @@
+Barathanatyam
+Kathakali
+Kathak
+Kuchipudi
+Odissi
+Sattriya
+Manipuri
+Mohiniyattam
+barathanatyam
+kathakali
+kathak
+kuchipudi
+odissi
+sattriya
+manipuri
+mohiniyattam
