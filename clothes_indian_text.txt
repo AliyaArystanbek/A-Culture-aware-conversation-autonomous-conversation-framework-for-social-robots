@@ -1,0 +1,377 @@
+{"prompt": "achkan", "completion": "Historically, male and female clothing has evolved from simple garments like kaupina, langota, achkan, lungi, sari, gamcha, and loincloths to cover the body into elaborate costumes not only used in daily wear, but also on festive occasions, as well as rituals and dance performances.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "Achkan is a small-jacket that usually sports exposed buttons through the length of the jacket.END"}
+{"prompt": "achkan", "completion": "Achkan is very similar to the sherwani which is much a much longer coat-jacket dress the jacket has a nehru collar.END"}
+{"prompt": "achkan", "completion": "[50] the achkan was mostly worn with tight-fitting pants or trousers called churidars.END"}
+{"prompt": "achkan", "completion": "Achkan is made from various fabrics for both formal and informal occasions.END"}
+{"prompt": "achkan", "completion": "The achkan features traditional indian embroidery like gota and badla.END"}
+{"prompt": "achkan", "completion": "Achkan was commonly worn by the grooms during wedding ceremonies [51] or other formal festive occasions in the indian subcontinent but when it evolved into the nehru jacket, the achkan became less worn.END"}
+{"prompt": "achkan", "completion": "In india, the achkan is generally worn for formal occasions in winter, especially by those from rajasthan, punjab, uttar pradesh and hyderabad.END"}
+{"prompt": "achkan", "completion": "The achkan later evolved into the nehru jacket, which is now popular in india.END"}
+{"prompt": "achkan", "completion": "A scarf called a dupatta is sometimes added to the achkan.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "The achkan features traditional indian embroidery like gota and badla.END"}
+{"prompt": "achkan", "completion": "[50] the achkan was mostly worn with tight-fitting pants or trousers called churidars.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "A scarf called a dupatta is sometimes added to the achkan.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "Historically, male and female clothing has evolved from simple garments like kaupina, langota, achkan, lungi, sari, gamcha, and loincloths to cover the body into elaborate costumes not only used in daily wear, but also on festive occasions, as well as rituals and dance performances.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "achkan", "completion": "Achkan is very similar to the sherwani which is much a much longer coat-jacket dress the jacket has a nehru collar.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "The term angarkha is derived from the sanskrit word aṅgarakṣaka, which means protection of the body.END"}
+{"prompt": "angarkha", "completion": "[54] the angarkha was worn in various parts of the indian subcontinent, but while the basic cut remained the same, styles and lengths varied from region to region.END"}
+{"prompt": "angarkha", "completion": "[56] however, men in parts of kutch still wear the jama also known as the angarkha [57] which has an asymmetric opening with the skirt flaring out to around the hips.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "[56] however, men in parts of kutch still wear the jama also known as the angarkha [57] which has an asymmetric opening with the skirt flaring out to around the hips.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "angarkha", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "anarkali", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "anarkali", "completion": "The anarkali suit is made up of a long, frock-style top and features a slim fitted bottom.END"}
+{"prompt": "anarkali", "completion": "The anarkali is an extremely desirable style that is adorned by women located in northern india, pakistan, and the middle east.END"}
+{"prompt": "anarkali", "completion": "The anarkali suit varies in many different lengths and embroideries including floor length anarkali styles.END"}
+{"prompt": "anarkali", "completion": "Many women will also opt for heavier embroidered anarkali suits on wedding functions and events.END"}
+{"prompt": "anarkali", "completion": "Indian women wear anarkali suits on various other occasions as well such as traditional festivals, casual lunch, anniversary celebrations, etc.END"}
+{"prompt": "anarkali", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "anarkali", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "anarkali", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "anarkali", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "anarkali", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "badla", "completion": "The achkan features traditional indian embroidery like gota and badla.END"}
+{"prompt": "badla", "completion": "The achkan features traditional indian embroidery like gota and badla.END"}
+{"prompt": "jodhpuri", "completion": "A jodhpuri or a bandhgala is a formal evening suit from india.END"}
+{"prompt": "jodhpuri", "completion": "Also known as jodhpuri suit, [citation needed] it is a western style suit product, with a coat and a trouser, at times accompanied by a vest.END"}
+{"prompt": "choli", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "choli", "completion": "Gupta-period depiction of women in ghagra choli, 320 ce–550 ce, uttar pradesh, india.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "Teenage girls may wear half-sarees, a three piece set consisting of a langa, a choli and a stole wrapped over it like a saree.END"}
+{"prompt": "choli", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "choli", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "choli", "completion": "A choli is a blouse shell garment, which is cut to fit the body and has short sleeves and a low neck.END"}
+{"prompt": "choli", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "choli", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "Gupta-period depiction of women in ghagra choli, 320 ce–550 ce, uttar pradesh, india.END"}
+{"prompt": "choli", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "choli", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "choli", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "choli", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "choli", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "choli", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "choli", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "choli", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "choli", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "cholo", "completion": "The suthan, similar to the salwar is common in sindh where it is worn with the cholo [37] and kashmir where it is worn with the phiran.END"}
+{"prompt": "cholo", "completion": "The suthan, similar to the salwar is common in sindh where it is worn with the cholo [37] and kashmir where it is worn with the phiran.END"}
+{"prompt": "churidar", "completion": "[50] the achkan was mostly worn with tight-fitting pants or trousers called churidars.END"}
+{"prompt": "churidar", "completion": "Ancient form of churidar worn during the gupta period, c.END"}
+{"prompt": "churidar", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "churidar", "completion": "While the salwar is baggy and caught in at the ankle, the churidar fits below the knees with horizontal gathers near the ankles.END"}
+{"prompt": "churidar", "completion": "[50] the achkan was mostly worn with tight-fitting pants or trousers called churidars.END"}
+{"prompt": "churidar", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "churidar", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "churidar", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "churidar", "completion": "While the salwar is baggy and caught in at the ankle, the churidar fits below the knees with horizontal gathers near the ankles.END"}
+{"prompt": "churidar", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "The didarganj yakshi depicting the dhoti wrap, c.END"}
+{"prompt": "dhoti", "completion": "These images show dancers and goddesses wearing what appears to be a dhoti wrap, a predecessor to the modern sari.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "Dhotis are one of the most common male dresses found in india.END"}
+{"prompt": "dhoti", "completion": "A dhoti is from four to six feet long white or colour strip of cotton.END"}
+{"prompt": "dhoti", "completion": "Owing to its widespread popularity throughout india, different languages have different terms to describe dhotis.END"}
+{"prompt": "dhoti", "completion": "In gujarati it's known as "dhotiyu", while in telugu they are called pancha.END"}
+{"prompt": "dhoti", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "dhoti", "completion": "These images show dancers and goddesses wearing what appears to be a dhoti wrap, a predecessor to the modern sari.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dhoti", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "dupatta", "completion": "A scarf called a dupatta is sometimes added to the achkan.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "dupatta", "completion": "[37] it is always worn with a scarf called a dupatta, which is used to cover the head and drawn over the bosom.END"}
+{"prompt": "dupatta", "completion": "The material for the dupatta usually depends upon that of the suit and is generally of cotton, georgette, silk, chiffon among others.END"}
+{"prompt": "dupatta", "completion": "A scarf called a dupatta is sometimes added to the achkan.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "dupatta", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "dupatta", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "ghagra", "completion": "Gupta-period depiction of women in ghagra choli, 320 ce–550 ce, uttar pradesh, india.END"}
+{"prompt": "ghagra", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "ghagra", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "ghagra", "completion": "Gupta-period depiction of women in ghagra choli, 320 ce–550 ce, uttar pradesh, india.END"}
+{"prompt": "ghagra", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "ghagra", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "ghagra", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "ghagra", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "[56] however, men in parts of kutch still wear the jama also known as the angarkha [57] which has an asymmetric opening with the skirt flaring out to around the hips.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "[citation needed] the shawls were dyed red or purple, red dye procured from cochineal insects and purple obtained by a mixture of red and blue from indigo [19] the most prized kashmiri shawls were the jamavar and the kanika jamavar, woven using weaving spools with coloured thread called kani and a single shawl taking more than a year for completion and requiring 100 to 1500 kanis depending on the degree of elaboration.END"}
+{"prompt": "jama", "completion": "The salwar is a generic description of the lower garment incorporating the punjabi salwar, sindhi suthan, dogri pajama (also called suthan), and the kashmiri suthan.END"}
+{"prompt": "jama", "completion": "[38] the kashmiri phiran is similar to the dogri pajama.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "The jama is a long coat that was popular during the mughal period.END"}
+{"prompt": "jama", "completion": "There are many types of jama costumes which were worn in various regions of south asia, the use of which began to wane by the end of the 19th century a.END"}
+{"prompt": "jama", "completion": "[56] however, men in parts of kutch still wear the jama also known as the angarkha [57] which has an asymmetric opening with the skirt flaring out to around the hips.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "The salwar is a generic description of the lower garment incorporating the punjabi salwar, sindhi suthan, dogri pajama (also called suthan), and the kashmiri suthan.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "jama", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "The punjabi suit also includes the "churidaar" and "kurta" ensemble which is also popular in southern india where it is known as the "churidaar".END"}
+{"prompt": "kurta", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "The punjabi suit also includes the "churidaar" and "kurta" ensemble which is also popular in southern india where it is known as the "churidaar".END"}
+{"prompt": "kurta", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "kameez", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "kameez", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "kameez", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "The punjabi suit also includes the "churidaar" and "kurta" ensemble which is also popular in southern india where it is known as the "churidaar".END"}
+{"prompt": "kurta", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "The punjabi suit also includes the "churidaar" and "kurta" ensemble which is also popular in southern india where it is known as the "churidaar".END"}
+{"prompt": "kurta", "completion": "[41] the churidaar can be worn with any upper garment such as a long kurta, which goes below the knees, or as part of the anarkali suit.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Over the dhoti, men wear shirts or kurtas.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurta", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurta", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kurti", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurti", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurti", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurti", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "kurti", "completion": "Traditional indian clothing such as the kurti have been combined with jeans to form part of casual attire.END"}
+{"prompt": "kurti", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "lehenga", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "lehenga", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "lehenga", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "lehenga", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "lehenga", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "lehenga", "completion": "A ghagra choli or a lehenga choli is the traditional clothing of women in rajasthan and gujarat.END"}
+{"prompt": "lehenga", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "lehenga", "completion": "A lehenga is a form of a long skirt that is pleated.END"}
+{"prompt": "lehenga", "completion": "Different styles of ghagra cholis are worn by the women, ranging from a simple cotton lehenga choli as daily wear, a traditional ghagra with mirrors embellished usually worn during navratri for the garba dance or a fully embroidered lehenga worn during marriage ceremonies by the bride.END"}
+{"prompt": "lehenga", "completion": "This dress is a three-piece garment where the langa or lehenga is the cone-shaped long flowing skirt.END"}
+{"prompt": "lehenga", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "lehenga", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "mekhela", "completion": "Mekhela sador (assamese: মেখেলা চাদৰ) is the traditional assamese dress worn by women.END"}
+{"prompt": "mekhela", "completion": "The bottom portion, draped from the waist downwards is called the mekhela (assamese: মেখেলা).END"}
+{"prompt": "mekhela", "completion": "Strings are never used to tie the mekhela around the waist, though an underskirt with a string is often used.END"}
+{"prompt": "mekhela", "completion": "The top portion of the three-piece dress, called the sador (assamese: চাদৰ), is a long length of cloth that has one end tucked into the upper portion of the mekhela and the rest draped over and around the rest of the body.END"}
+{"prompt": "odhani", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "odhani", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "odhani", "completion": "It is a combination of lehenga, a tight choli and an odhani.END"}
+{"prompt": "pheta", "completion": "Pheta is the marathi name for turbans worn in the state of maharashtra.END"}
+{"prompt": "pheta", "completion": "[61] the main types are the puneri pagadi, kolhapuri and mawali pheta.END"}
+{"prompt": "sari", "completion": "Historically, male and female clothing has evolved from simple garments like kaupina, langota, achkan, lungi, sari, gamcha, and loincloths to cover the body into elaborate costumes not only used in daily wear, but also on festive occasions, as well as rituals and dance performances.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "sari", "completion": "These images show dancers and goddesses wearing what appears to be a dhoti wrap, a predecessor to the modern sari.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "sari", "completion": "Historically, male and female clothing has evolved from simple garments like kaupina, langota, achkan, lungi, sari, gamcha, and loincloths to cover the body into elaborate costumes not only used in daily wear, but also on festive occasions, as well as rituals and dance performances.END"}
+{"prompt": "sari", "completion": "These images show dancers and goddesses wearing what appears to be a dhoti wrap, a predecessor to the modern sari.END"}
+{"prompt": "sari", "completion": "Shakuntala, wife of dushyanta and the mother of emperor bharata, from kalidasa's play abhijñānaśākuntala, wearing a sari, painting by raja ravi varma.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "sari", "completion": "[citation needed] saris made out of silk are considered the most elegant.END"}
+{"prompt": "sari", "completion": "Women wear a sari, a long sheet of colourful cloth, draped over a simple or fancy blouse.END"}
+{"prompt": "sari", "completion": "A saree or sari [25] [26] is a female garment in the indian subcontinent.END"}
+{"prompt": "sari", "completion": "[27] a sari is a strip of unstitched cloth, ranging from four to nine meters in length, that is draped over the body in various styles.END"}
+{"prompt": "sari", "completion": "[28] the most common style is for the sari to be wrapped around the waist, with one end then draped over the shoulder baring the midriff.END"}
+{"prompt": "sari", "completion": "[27] the sari is usually worn over a petticoat.END"}
+{"prompt": "sari", "completion": "Women in the armed forces, when wearing a sari uniform, don a half-sleeve shirt tucked in at the waist.END"}
+{"prompt": "sari", "completion": "Indian wedding saris are typically red or pink, a tradition that goes back to india's pre-modern history.END"}
+{"prompt": "sari", "completion": "Saris are usually known with different names in different places.END"}
+{"prompt": "sari", "completion": "In kerala, white saris with golden border, are known as kavanis and are worn on special occasions.END"}
+{"prompt": "sari", "completion": "A simple white sari, worn as a daily wear, is called a mundu.END"}
+{"prompt": "sari", "completion": "Saris are called pudavai in tamil nadu.END"}
+{"prompt": "sari", "completion": "In karnataka, saris are called seere.END"}
+{"prompt": "sari", "completion": "[32] the sari series [33] provides a documented resource of over 80 different regional drapes of india.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "sari", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "salwar", "completion": "The suthan, similar to the salwar is common in sindh where it is worn with the cholo [37] and kashmir where it is worn with the phiran.END"}
+{"prompt": "salwar", "completion": "While the salwar is baggy and caught in at the ankle, the churidar fits below the knees with horizontal gathers near the ankles.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "salwar", "completion": "The salwar is a generic description of the lower garment incorporating the punjabi salwar, sindhi suthan, dogri pajama (also called suthan), and the kashmiri suthan.END"}
+{"prompt": "salwar", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "salwar", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "salwar", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "salwar", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "salwar", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "Dancing girl in kurta-salwar-like choli; gupta empire.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "The salwar is a generic description of the lower garment incorporating the punjabi salwar, sindhi suthan, dogri pajama (also called suthan), and the kashmiri suthan.END"}
+{"prompt": "salwar", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "salwar", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "salwar", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "salwar", "completion": "The suthan, similar to the salwar is common in sindh where it is worn with the cholo [37] and kashmir where it is worn with the phiran.END"}
+{"prompt": "salwar", "completion": "The patiala salwar is an exaggeratedly wide version of the salwar, its loose pleats stitched together at the bottom.END"}
+{"prompt": "salwar", "completion": "Churidaar is a variation on the salwar, loose above the knees and tightly fitted to the calf below.END"}
+{"prompt": "salwar", "completion": "While the salwar is baggy and caught in at the ankle, the churidar fits below the knees with horizontal gathers near the ankles.END"}
+{"prompt": "salwar", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "salwar", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "salwar", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "salwar", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "salwar", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "salwar", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "kameez", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "kameez", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "Traditional indian clothing for women in the north and east are saris worn with choli tops; a long skirt called a lehenga worn with choli and a dupatta scarf to create an ensemble called a gagra choli; or salwar kameez suits, while many south indian women traditionally wear sari and children wear pattu langa.END"}
+{"prompt": "kameez", "completion": "The salwar kameez has been worn by the women of punjab, haryana and himachal pradesh where the suit has been called the punjabi suit which is most common in the northwestern part of india (punjab region).END"}
+{"prompt": "kameez", "completion": "The salwar kameez consists of loose trousers (the salwar) narrow at the ankles, topped by a tunic top (the kameez).END"}
+{"prompt": "kameez", "completion": "[37] women generally wear a dupatta or odani (veil) with salwar kameez to cover their head and shoulders.END"}
+{"prompt": "kameez", "completion": "The kameez of the anarkali can be sleeveless or with sleeves ranging from cap- to wrist-length.END"}
+{"prompt": "kameez", "completion": "Popular among unmarried women other than salwar kameez are gagra choli and langa voni.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "kameez", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Achkan is very similar to the sherwani which is much a much longer coat-jacket dress the jacket has a nehru collar.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Other clothing includes the churidar, gamucha, kurti and kurta, and sherwani.END"}
+{"prompt": "sherwani", "completion": "For men, traditional clothes are the achkan/sherwani, bandhgala, lungi, kurta, angarkha, jama, shalwar kameez and dhoti or pajama.END"}
+{"prompt": "sherwani", "completion": "Achkan is very similar to the sherwani which is much a much longer coat-jacket dress the jacket has a nehru collar.END"}
