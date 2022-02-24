@@ -1,11 +1,3 @@
-"""
-Author:      Lucrezia Grassi
-Email:       lucrezia.grassi@edu.unige.it
-Affiliation: Laboratorium, DIBRIS, University of Genoa, Italy
-Project:     CAIR
-
-This file contains the CAIR server
-"""
 
 from flask import Flask, request
 from flask_restful import Api
@@ -25,6 +17,7 @@ import sys
 import openai
 import requests
 import json
+import random
 import re
 
 openai.organization = "org-3afgCYP6KTHZic6sF9nBXAAt"
@@ -81,6 +74,12 @@ def call_regex_matcher(sentence, prev_topic_number):
         plan = ''
     return intent_reply, kbplan, plan
 
+def get_key(val,my_dict):
+    for key, value in my_dict.items():
+         if val == value:
+             return key
+ 
+    return "There is no such Key"
 
 def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topics_likeliness):
     # The flags and the likelinesses are already merged with the ones specific of the client
@@ -183,298 +182,133 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
         topic_n = main(sentence, id_reqs, topics_likeliness, req_par1, req_par2, tot_topic)
 
         common_sent = ''
-        # If no topic is triggered by the user's sentence, choose it from top concepts
-        #print (topic_n)
         if topic_n == -1:
-            a = (sentence)
-            print(a)
+            a = input("Human:")
+			#  repeat = (str(itertools.repeat(a, 20)))
             repeat1 = [(text+' ')*50 for text in a.split(' ')]
             repeat2 = ' '.join(repeat1)
-            print (repeat2)
+            print("repeat2 ",repeat2)
             document = language_v1.Document(
-              content=repeat2, type_=language_v1.Document.Type.PLAIN_TEXT
-            )  
-  
-            #Classify the text to categories
+				content=repeat2, type_=language_v1.Document.Type.PLAIN_TEXT
+			)
+            print("document ",document)
+    #Classify the text to categories
             categories = client.classify_text(
-	    request={"document": document}
-            ).categories
-            for category in categories:
-#    print(u"=" * 20)
-#     print(u"{:<16}: {}".format("category", category.name))
-               text_category = (u"{}: {}".format("category", category.name))
-               print(text_category)
-               text_category_replaced = text_category.replace('/', ' ')
-               print(text_category_replaced)
-               text = word_tokenize(text_category_replaced)
-               print(text)
-               word_food == ["Food", "Drink", "Restaurants", "Cooking", "Recipes", "Grains", "Pasta"]
-               word_clothes == ["Clothing", "Shopping", "Fashion", "Apparel"]
-               word_dance == ["Arts", "Entertainment", "Dance", "Music", "Audio"]
-               word_festivals == ["Holidays", "Events", "Occasions", "Religion", "Belief", "Hobbies", "Leisure"]
-               word_games == ["Sports", "Team", "Games", "Entertainment"]
-               word_languages ==["Language", "Foreign"]
-               word_musical_instruments == ["Arts", "Entertainment", "Music", "Audio"]
-               word_religion == ["Religion", "Belief"]
-               word_states == ["Maps", "Government"]
-               word_wedding_rituals == ["Family", "Relationships", "Marriage", "People", "Society"]
-               
-               if word_food in text:
-                  print("###FOOOOOOOOD####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               
-               if word_clothes in text:
-                  print("###Clothes####")
-                  response = openai.Completion.create(
-                      model="davinci:ft-personal-2022-02-16-15-16-17",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
+    		request={"document": document}
+    		).categories
+    		#print("categories ", categories)
 
 
-               
-               if word_dance in text:
-                  print("###Dance####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               if word_festivals in text:
-                  print("###Festivals####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               
-               if word_games in text:
-                  print("###Games####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
+            word_food = ["Food", "Drink", "Restaurants", "Cooking", "Recipes"]
+            word_clothes = ["Clothing", "Shopping", "Fashion", "Apparel"]
+            word_dance = ["Arts", "Entertainment", "Dance", "Music", "Audio"]
+            word_festivals = ["Holidays", "Events", "Occasions", "Hobbies", "Leisure"]
+            word_games = ["Sports", "Team", "Games", "Entertainment"]
+            word_languages =["Language", "Foreign"]
+            word_musical_instruments = ["Arts", "Entertainment", "Music", "Audio"]
+            word_religion = ["Religion", "Belief"]
+            word_states = ["Maps", "Government"]
+            word_wedding_rituals = ["Family", "Relationships", "Marriage", "People", "Society"]
+            word_list = [word_food, word_clothes, word_dance, word_festivals, word_games, word_languages, word_musical_instruments, word_religion, word_states, word_wedding_rituals]
+		
+            model_id_list = ["babbage:ft-personal-2022-02-23-16-33-08", "babbage:ft-personal-2022-02-24-14-28-11 ", "babbage:ft-personal-2022-02-24-14-50-29", "babbage:ft-personal-2022-02-24-15-04-44",
+							"babbage:ft-personal-2022-02-24-15-33-56", "babbage:ft-personal-2022-02-24-15-48-39", "babbage:ft-personal-2022-02-24-15-56-57",
+							"babbage:ft-personal-2022-02-24-16-07-21", "babbage:ft-personal-2022-02-24-16-19-00", "babbage:ft-personal-2022-02-24-16-30-33"]
+            ids_list = {}
 
+            for cnt, i in enumerate(model_id_list):
+				#print("cnt", cnt)
+                ids_list[i]=word_list[cnt]
+			#    print("ids_list ", ids_list
+            if categories:
+                for category in categories:
+                    text_category = (u"{}: {}".format("category", category.name))
+                    text_category_replaced = text_category.replace('/', ' ')
+                    print(text_category_replaced)
+                    text = word_tokenize(text_category_replaced)
+                    print("text ", text)
+                    break_out_flag = False
+                    for word_text in word_list:
+                        print("word text",word_text)
+                        for word in word_text:
+                            print("word", word)
+                            if word in text:
+                                print("word in text ", word)
+                                print(word)
+                                model_id = get_key(word_text, ids_list)
+                                print("word text", word_text)
+                                print("model_id ", model_id)
+                                response = openai.Completion.create(
+									model=model_id,
+									prompt=str(a) + "\nAI:",
+									temperature=0.9,
+									max_tokens=150,
+									top_p=1,
+									frequency_penalty=0.0,
+									presence_penalty=0.0,
+									stop=[".END", "}"]
+                    			)
+                                print("*********&&&&&&&&&&&&&&***********", response)
+                                string_unicode = response.choices[0].text
+                                string_encode = string_unicode.encode("ascii", "ignore")
+                                reply = string_encode.decode()
+                                prev_topic_stop = False
+                                sentence_type = 'e'
+                                prev_topic_pattern = []
+                                print(reply)
+                                if not reply:
+                                    topic_n = -2
+                                break_out_flag = True
+                                break
+                        if break_out_flag:
+                            break
 
-               
-               if word_languages in text:
-                  print("###Languages####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               if word_musical_instruments in text:
-                  print("###Musical Instruments####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               
-               if word_religion in text:
-                  print("###Religion####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-
-
-               
-               if word_states in text:
-                  print("###States####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-
-               if word_wedding_rituals in text:
-                  print("###Wedding rituals####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-                  		
-#            response = openai.Completion.create(
-#                model="ada:ft-personal-2022-02-14-12-57-46",
-#                prompt=str(a) + "\nAI:",
-#                temperature=0.9,
-#                max_tokens=150,
-#                top_p=1,
-#                frequency_penalty=0.0,
-#                presence_penalty=0.0,
-#                stop=[".END", "}"]
-#            )
-#            print("*********&&&&&&&&&&&&&&***********", response)
-#            string_unicode = response.choices[0].text
-#            string_encode = string_unicode.encode("ascii", "ignore")
-#            reply = string_encode.decode()
-#            prev_topic_stop = False
-#            sentence_type = 'e'
-#            prev_topic_pattern = []
-#            print(reply)
-
-#            if not reply:
-#                topic_n = -2
-
+                        if word_list[-1] == word_text:
+                            if (word_text[-1] == word) and (word not in text):
+                                response = openai.Completion.create(
+									model=random.choice(model_id_list),
+									prompt=str(a) + "\nAI:",
+									temperature=0.9,
+									max_tokens=150,
+									top_p=1,
+									frequency_penalty=0.0,
+									presence_penalty=0.0,
+									stop=[".END", "}"]
+								)
+                                print("*********&&&&&&&&&&&&&&***********", response)
+                                string_unicode = response.choices[0].text
+                                string_encode = string_unicode.encode("ascii", "ignore")
+                                reply = string_encode.decode()
+                                prev_topic_stop = False
+                                sentence_type = 'e'
+                                prev_topic_pattern = []
+                                print(reply)
+                                if not reply:
+                                    topic_n = -2            		
+            else:
+                model_id = get_key(word_text, ids_list)
+                print("word text", word_text)
+                print("model_id ", model_id)
+                response = openai.Completion.create(
+                    model=model_id,
+                    prompt=str(a) + "\nAI:",
+                    temperature=0.9,
+                    max_tokens=150,
+                    top_p=1,
+                    frequency_penalty=0.0,
+                    presence_penalty=0.0,
+                    stop=[".END", "}"]
+                )
+                print("*********&&&&&&&&&&&&&&***********", response)
+                string_unicode = response.choices[0].text
+                string_encode = string_unicode.encode("ascii", "ignore")
+                reply = string_encode.decode()
+                prev_topic_stop = False
+                sentence_type = 'e'
+                prev_topic_pattern = []
+                print(reply)
+                if not reply:
+                    topic_n = -2
         elif topic_n != -1 or topic_n == -2:
             #print("No topic triggered by the user: choose from top concepts")   ####If topic_=-1 no keyword and "e" no brothers and childrens call OpenAI API
             topic_n = choose_topic(top_topics, topics_likeliness, False)
@@ -496,7 +330,7 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                 # If the topic has likeliness 1 it will say a positive or a wait depending on the pattern, without adding
                 # nothing before.
 
-            reply = common_sent + " " + reply
+                reply = common_sent + " " + reply
 
     # If sentence type w, c, g
     else:
@@ -538,317 +372,142 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
 
         # If no topic associated to the user's sentence is found
         else:
-            a = (sentence)
-            print(a)
+            a = input("Human:")
+			#  repeat = (str(itertools.repeat(a, 20)))
             repeat1 = [(text+' ')*50 for text in a.split(' ')]
             repeat2 = ' '.join(repeat1)
-            print (repeat2)
+            print("repeat2 ",repeat2)
             document = language_v1.Document(
-              content=repeat2, type_=language_v1.Document.Type.PLAIN_TEXT
-            )  
-  
-            #Classify the text to categories
+				content=repeat2, type_=language_v1.Document.Type.PLAIN_TEXT
+			)
+            print("document ",document)
+    #Classify the text to categories
             categories = client.classify_text(
-	    request={"document": document}
+            request={"document": document}
             ).categories
-            for category in categories:
-#    print(u"=" * 20)
-#     print(u"{:<16}: {}".format("category", category.name))
- #              print(u"{}: {}".format("category", category.name))
-               text_category = (u"{}: {}".format("category", category.name))
-               print(text_category)
-               text_category_replaced = text_category.replace('/', ' ')
-               print(text_category_replaced)
-               text = word_tokenize(text_category_replaced)
-               print(text)
-               word_food == ["Food", "Drink", "Restaurants", "Cooking", "Recipes", "Grains", "Pasta"]
-               word_clothes == ["Clothing", "Shopping", "Fashion", "Apparel"]
-               word_dance == ["Arts", "Entertainment", "Dance", "Music", "Audio"]
-               word_festivals == ["Holidays", "Events", "Occasions", "Religion", "Belief", "Hobbies", "Leisure"]
-               word_games == ["Sports", "Team", "Games", "Entertainment"]
-               word_languages ==["Language", "Foreign"]
-               word_musical_instruments == ["Arts", "Entertainment", "Music", "Audio"]
-               word_religion == ["Religion", "Belief"]
-               word_states == ["Maps", "Government"]
-               word_wedding_rituals == ["Family", "Relationships", "Marriage", "People", "Society"]
-               
-               if word_food in text:
-                  print("###FOOOOOOOOD####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               
-               if word_clothes in text:
-                  print("###Clothes####")
-                  response = openai.Completion.create(
-                      model="davinci:ft-personal-2022-02-16-15-16-17",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
+    		#print("categories ", categories)
 
 
-               
-               if word_dance in text:
-                  print("###Dance####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               if word_festivals in text:
-                  print("###Festivals####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               
-               if word_games in text:
-                  print("###Games####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
+            word_food = ["Food", "Drink", "Restaurants", "Cooking", "Recipes"]
+            word_clothes = ["Clothing", "Shopping", "Fashion", "Apparel"]
+            word_dance = ["Arts", "Entertainment", "Dance", "Music", "Audio"]
+            word_festivals = ["Holidays", "Events", "Occasions", "Hobbies", "Leisure"]
+            word_games = ["Sports", "Team", "Games", "Entertainment"]
+            word_languages =["Language", "Foreign"]
+            word_musical_instruments = ["Arts", "Entertainment", "Music", "Audio"]
+            word_religion = ["Religion", "Belief"]
+            word_states = ["Maps", "Government"]
+            word_wedding_rituals = ["Family", "Relationships", "Marriage", "People", "Society"]
+            word_list = [word_food, word_clothes, word_dance, word_festivals, word_games, word_languages, word_musical_instruments, word_religion, word_states, word_wedding_rituals]
 
+            model_id_list = ["babbage:ft-personal-2022-02-23-16-33-08", "babbage:ft-personal-2022-02-24-14-28-11 ", "babbage:ft-personal-2022-02-24-14-50-29", "babbage:ft-personal-2022-02-24-15-04-44",
+            "babbage:ft-personal-2022-02-24-15-33-56", "babbage:ft-personal-2022-02-24-15-48-39", "babbage:ft-personal-2022-02-24-15-56-57",
+            "babbage:ft-personal-2022-02-24-16-07-21", "babbage:ft-personal-2022-02-24-16-19-00", "babbage:ft-personal-2022-02-24-16-30-33"]
+            ids_list = {}
 
-               
-               if word_languages in text:
-                  print("###Languages####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               if word_musical_instruments in text:
-                  print("###Musical Instruments####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-               
-               if word_religion in text:
-                  print("###Religion####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
+            for cnt, i in enumerate(model_id_list):
+				#print("cnt", cnt)
+                ids_list[i]=word_list[cnt]
+			#    print("ids_list ", ids_list)
+            if categories:
+                for category in categories:
+                    text_category = (u"{}: {}".format("category", category.name))
+                    text_category_replaced = text_category.replace('/', ' ')
+                    print(text_category_replaced)
+                    text = word_tokenize(text_category_replaced)
+                    print("text ", text)
+                    break_out_flag = False
+                    for word_text in word_list:
+                        print("word text",word_text)
+                        for word in word_text:
+                            print("word", word)
+                            if word in text:
+                                print("word in text ", word)
+                                print(word)
+                                model_id = get_key(word_text, ids_list)
+                                print("word text", word_text)
+                                print("model_id ", model_id)
+                                response = openai.Completion.create(
+									model=model_id,
+									prompt=str(a) + "\nAI:",
+									temperature=0.9,
+									max_tokens=150,
+									top_p=1,
+									frequency_penalty=0.0,
+									presence_penalty=0.0,
+									stop=[".END", "}"]
+                    			)
+                                print("*********&&&&&&&&&&&&&&***********", response)
+                                string_unicode = response.choices[0].text
+                                string_encode = string_unicode.encode("ascii", "ignore")
+                                reply = string_encode.decode()
+                                prev_topic_stop = False
+                                sentence_type = 'w'
+                                prev_topic_pattern = []
+                                print(reply)
+                                if not reply:
+                                    topic_n = -2
+                                break_out_flag = True
+                                break
+                        if break_out_flag:
+                            break
 
-
-               
-               if word_states in text:
-                  print("###States####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-
-               if word_wedding_rituals in text:
-                  print("###Wedding rituals####")
-                  response = openai.Completion.create(
-                      model="ada:ft-personal-2022-02-14-12-57-46",
-                      prompt=str(a) + "\nAI:",
-                      temperature=0.9,
-                      max_tokens=150,
-                      top_p=1,
-                      frequency_penalty=0.0,
-                      presence_penalty=0.0,
-                      stop=[".END", "}"]
-                  )
-                  print("*********&&&&&&&&&&&&&&***********", response)
-                  string_unicode = response.choices[0].text
-                  string_encode = string_unicode.encode("ascii", "ignore")
-                  reply = string_encode.decode()
-                  prev_topic_stop = False
-                  sentence_type = 'e'
-                  prev_topic_pattern = []
-                  print(reply)
-                  if not text_category:
-                  	 common_sent = random.choice(common_sent_dict['q'])
-            # Or choose between gp sentences in case the goal could be accomplished
+                        if word_list[-1] == word_text:
+                            if (word_text[-1] == word) and (word not in text):
+                                response = openai.Completion.create(
+									model=random.choice(model_id_list),
+									prompt=str(a) + "\nAI:",
+									temperature=0.9,
+									max_tokens=150,
+									top_p=1,
+									frequency_penalty=0.0,
+									presence_penalty=0.0,
+									stop=[".END", "}"]
+								)
+                                print("*********&&&&&&&&&&&&&&***********", response)
+                                string_unicode = response.choices[0].text
+                                string_encode = string_unicode.encode("ascii", "ignore")
+                                reply = string_encode.decode()
+                                prev_topic_stop = False
+                                sentence_type = 'w'
+                                prev_topic_pattern = []
+                                print(reply)
+                                if not reply:
+                                    topic_n = -2            		
+            else:
+                model_id = get_key(word_text, ids_list)
+                print("word text", word_text)
+                print("model_id ", model_id)
+                response = openai.Completion.create(
+					model=model_id,
+					prompt=str(a) + "\nAI:",
+					temperature=0.9,
+					max_tokens=150,
+					top_p=1,
+					frequency_penalty=0.0,
+					presence_penalty=0.0,
+					stop=[".END", "}"]
+      			)
+                print("*********&&&&&&&&&&&&&&***********", response)
+                string_unicode = response.choices[0].text
+                string_encode = string_unicode.encode("ascii", "ignore")
+                reply = string_encode.decode()
+                prev_topic_stop = False
+                sentence_type = 'w'
+                prev_topic_pattern = []
+                print(reply)
+                if not reply:
+                    topic_n = -2
+        if perform_goal == 1:
+			# Or choose between gp sentences in case the goal could be accomplished
             # Actually there is the intent reply -
             # Call again the regex match service (as the answer is yes there was no previous intent matched this time)
-                      reply = "#" + reply
-                   elif perform_goal == -1:
-                   	reply = random.choice(common_sent_dict['gn']) + " " + reply
-                   elif show_interest:
-                   	reply = random.choice(common_sent_dict['w']) + " " + reply
+            reply = "#" + reply
+        elif perform_goal == -1:
+            reply = random.choice(common_sent_dict['gn']) + " " + reply
+        elif show_interest:
+            reply = random.choice(common_sent_dict['w']) + " " + reply
 
-                	
-
-#            response = openai.Completion.create(
-#                model="ada:ft-personal-2022-02-14-12-57-46",
-#                prompt=str(a) + "\nAI:",
-#                temperature=0.9,
-#                max_tokens=150,
-#                top_p=1,
-#                frequency_penalty=0.0,
-#                presence_penalty=0.0,
-#                stop=[".END", "}"]
-#            )
-#            print("*********ALIYA***********", response)
-#            string_unicode = response.choices[0].text
-#            string_encode = string_unicode.encode("ascii", "ignore")
-#            reply = string_encode.decode()
-#            prev_topic_stop = False
-#            sentence_type = 'w'
-#            prev_topic_pattern = []
-#            print("####ALIYA#########", reply)
-            
-            #print("No topic associated to the sentence found: try to continue")
-#            sentence_type, prev_topic_pattern, reply, topic_n, prev_topic_stop, topics_sentences_flags = \
-#                explore_DT("", prev_topic_number, prev_topic_pattern, prev_topic_stop, topics_father,
-#                          topics_children, topics_brothers, topics_likeliness, topics_sentences,
-#                           topics_sentences_types, topics_sentences_flags, False)
- #       if perform_goal == 1:
-            # Or choose between gp sentences in case the goal could be accomplished
-            # Actually there is the intent reply -
-            # Call again the regex match service (as the answer is yes there was no previous intent matched this time)
- #           reply = "#" + reply
- #       elif perform_goal == -1:
- #           reply = random.choice(common_sent_dict['gn']) + " " + reply
- #       elif show_interest:
- #           reply = random.choice(common_sent_dict['w']) + " " + reply
 
     return sentence_type, prev_topic_pattern, reply, topic_n, prev_topic_stop, modified_topics_likeliness
 
