@@ -1,5 +1,5 @@
 
-from flask import Flask, request
+from flask import Flask, request, make_response
 from flask_restful import Api
 from topics import *
 from topics_utils import *
@@ -18,10 +18,11 @@ import openai
 import requests
 import json
 import random
+import zlib
 import re
 
 openai.organization = "org-3afgCYP6KTHZic6sF9nBXAAt"
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "your key"
 app = Flask(__name__)
 api = Api(app)
 
@@ -183,10 +184,10 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
 
         common_sent = ''
         if topic_n == -1:
-            a = input("Human:")
+            a = (sentence)
 			#  repeat = (str(itertools.repeat(a, 20)))
-            repeat1 = [(text+' ')*50 for text in a.split(' ')]
-            repeat2 = ' '.join(repeat1)
+            repeat1 = [(text+'.')*50 for text in a.split('.')]
+            repeat2 = '.'.join(repeat1)
             print("repeat2 ",repeat2)
             document = language_v1.Document(
 				content=repeat2, type_=language_v1.Document.Type.PLAIN_TEXT
@@ -196,22 +197,23 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
             categories = client.classify_text(
     		request={"document": document}
     		).categories
-    		#print("categories ", categories)
+            print("categories ", categories)
+            #print("categories 0", categories[0])
 
 
             word_food = ["Food", "Drink", "Restaurants", "Cooking", "Recipes"]
-            word_clothes = ["Clothing", "Shopping", "Fashion", "Apparel"]
-            word_dance = ["Arts", "Entertainment", "Dance", "Music", "Audio"]
-            word_festivals = ["Holidays", "Events", "Occasions", "Hobbies", "Leisure"]
-            word_games = ["Sports", "Team", "Games", "Entertainment"]
+            word_clothes = ["Clothing", "Fashion", "Apparel"]
+            word_dance = ["Dance"]
+            word_festivals = ["Holidays", "Events", "Occasions"]
+            word_games = ["Sports", "Team", "Games"]
             word_languages =["Language", "Foreign"]
-            word_musical_instruments = ["Arts", "Entertainment", "Music", "Audio"]
+            word_musical_instruments = ["Arts", "Entertaiment", "Music", "Audio"]
             word_religion = ["Religion", "Belief"]
             word_states = ["Maps", "Government"]
-            word_wedding_rituals = ["Family", "Relationships", "Marriage", "People", "Society"]
+            word_wedding_rituals = ["Family", "Relationships", "Marriage"]
             word_list = [word_food, word_clothes, word_dance, word_festivals, word_games, word_languages, word_musical_instruments, word_religion, word_states, word_wedding_rituals]
 		
-            model_id_list = ["babbage:ft-personal-2022-02-23-16-33-08", "babbage:ft-personal-2022-02-24-14-28-11 ", "babbage:ft-personal-2022-02-24-14-50-29", "babbage:ft-personal-2022-02-24-15-04-44",
+            model_id_list = ["babbage:ft-personal-2022-02-23-16-33-08", "babbage:ft-personal-2022-02-24-14-28-11", "babbage:ft-personal-2022-02-24-14-50-29", "babbage:ft-personal-2022-02-24-15-04-44",
 							"babbage:ft-personal-2022-02-24-15-33-56", "babbage:ft-personal-2022-02-24-15-48-39", "babbage:ft-personal-2022-02-24-15-56-57",
 							"babbage:ft-personal-2022-02-24-16-07-21", "babbage:ft-personal-2022-02-24-16-19-00", "babbage:ft-personal-2022-02-24-16-30-33"]
             ids_list = {}
@@ -240,7 +242,8 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                                 print("model_id ", model_id)
                                 response = openai.Completion.create(
 									model=model_id,
-									prompt=str(a) + "\nAI:",
+									prompt=str(a),
+									#prompt=str(a) + "\nAI:",
 									temperature=0.9,
 									max_tokens=150,
 									top_p=1,
@@ -266,14 +269,17 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                         if word_list[-1] == word_text:
                             if (word_text[-1] == word) and (word not in text):
                                 response = openai.Completion.create(
+                                    #engine="babbage",
 									model=random.choice(model_id_list),
-									prompt=str(a) + "\nAI:",
+                                    prompt=str(a),
+									#prompt=str(a) + "\nAI:",
 									temperature=0.9,
 									max_tokens=150,
 									top_p=1,
 									frequency_penalty=0.0,
 									presence_penalty=0.0,
-									stop=[".END", "}"]
+                                    stop=[".END", "}"]
+									#stop=["\n", " Human:"]
 								)
                                 print("*********&&&&&&&&&&&&&&***********", response)
                                 string_unicode = response.choices[0].text
@@ -286,18 +292,22 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                                 if not reply:
                                     topic_n = -2            		
             else:
-                model_id = get_key(word_text, ids_list)
-                print("word text", word_text)
+                random_category = random.choice(word_list)
+                model_id = get_key(random_category, ids_list)
+                print("word text", random_category)
                 print("model_id ", model_id)
                 response = openai.Completion.create(
-                    model=model_id,
-                    prompt=str(a) + "\nAI:",
+                    engine="babbage",
+                    #model=model_id,
+                    prompt=str(a),
+                    #prompt=str(a) + "\nAI:",
                     temperature=0.9,
                     max_tokens=150,
                     top_p=1,
                     frequency_penalty=0.0,
                     presence_penalty=0.0,
                     stop=[".END", "}"]
+                    #stop=["\n", " Human:"]
                 )
                 print("*********&&&&&&&&&&&&&&***********", response)
                 string_unicode = response.choices[0].text
@@ -372,9 +382,9 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
 
         # If no topic associated to the user's sentence is found
         else:
-            a = input("Human:")
+            a = (sentence)
 			#  repeat = (str(itertools.repeat(a, 20)))
-            repeat1 = [(text+' ')*50 for text in a.split(' ')]
+            repeat1 = [(text+' ')*50 for text in a.split('.')]
             repeat2 = ' '.join(repeat1)
             print("repeat2 ",repeat2)
             document = language_v1.Document(
@@ -385,19 +395,20 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
             categories = client.classify_text(
             request={"document": document}
             ).categories
-    		#print("categories ", categories)
+            print("categories ", categories)
+            #print("confidence", categories["confidence"])
 
 
             word_food = ["Food", "Drink", "Restaurants", "Cooking", "Recipes"]
-            word_clothes = ["Clothing", "Shopping", "Fashion", "Apparel"]
-            word_dance = ["Arts", "Entertainment", "Dance", "Music", "Audio"]
-            word_festivals = ["Holidays", "Events", "Occasions", "Hobbies", "Leisure"]
-            word_games = ["Sports", "Team", "Games", "Entertainment"]
+            word_clothes = ["Clothing", "Fashion", "Apparel"]
+            word_dance = ["Dance"]
+            word_festivals = ["Holidays", "Events", "Occasions"]
+            word_games = ["Sports", "Team", "Games"]
             word_languages =["Language", "Foreign"]
-            word_musical_instruments = ["Arts", "Entertainment", "Music", "Audio"]
+            word_musical_instruments = ["Art", "Entertaiment", "Music", "Audio"]
             word_religion = ["Religion", "Belief"]
             word_states = ["Maps", "Government"]
-            word_wedding_rituals = ["Family", "Relationships", "Marriage", "People", "Society"]
+            word_wedding_rituals = ["Family", "Relationships", "Marriage"]
             word_list = [word_food, word_clothes, word_dance, word_festivals, word_games, word_languages, word_musical_instruments, word_religion, word_states, word_wedding_rituals]
 
             model_id_list = ["babbage:ft-personal-2022-02-23-16-33-08", "babbage:ft-personal-2022-02-24-14-28-11 ", "babbage:ft-personal-2022-02-24-14-50-29", "babbage:ft-personal-2022-02-24-15-04-44",
@@ -429,7 +440,8 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                                 print("model_id ", model_id)
                                 response = openai.Completion.create(
 									model=model_id,
-									prompt=str(a) + "\nAI:",
+								    prompt=str(a),
+                                    #prompt=str(a),
 									temperature=0.9,
 									max_tokens=150,
 									top_p=1,
@@ -455,14 +467,17 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                         if word_list[-1] == word_text:
                             if (word_text[-1] == word) and (word not in text):
                                 response = openai.Completion.create(
+                                    #engine="babbage",
 									model=random.choice(model_id_list),
-									prompt=str(a) + "\nAI:",
+                                    prompt=str(a),
+									#prompt=str(a) + "\nAI:",
 									temperature=0.9,
 									max_tokens=150,
 									top_p=1,
 									frequency_penalty=0.0,
 									presence_penalty=0.0,
-									stop=[".END", "}"]
+                                    stop=[".END", "}"]
+									#stop=["\n", " Human:"]
 								)
                                 print("*********&&&&&&&&&&&&&&***********", response)
                                 string_unicode = response.choices[0].text
@@ -475,29 +490,33 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
                                 if not reply:
                                     topic_n = -2            		
             else:
-                model_id = get_key(word_text, ids_list)
-                print("word text", word_text)
-                print("model_id ", model_id)
-                response = openai.Completion.create(
-					model=model_id,
-					prompt=str(a) + "\nAI:",
-					temperature=0.9,
-					max_tokens=150,
-					top_p=1,
-					frequency_penalty=0.0,
-					presence_penalty=0.0,
-					stop=[".END", "}"]
-      			)
-                print("*********&&&&&&&&&&&&&&***********", response)
-                string_unicode = response.choices[0].text
-                string_encode = string_unicode.encode("ascii", "ignore")
-                reply = string_encode.decode()
-                prev_topic_stop = False
-                sentence_type = 'w'
-                prev_topic_pattern = []
-                print(reply)
-                if not reply:
-                    topic_n = -2
+                    random_category = random.choice(word_list)
+                    model_id = get_key(random_category, ids_list)
+                    print("random category has been chosen", random_category)
+                    print("model_id ", model_id)
+                    response = openai.Completion.create(
+                        engine="babbage",
+                        #model=model_id,
+                        prompt=str(a),
+                        #prompt=str(a) + "\nAI:",
+                        temperature=0.9,
+                        max_tokens=150,
+                        top_p=1,
+                        frequency_penalty=0.0,
+                        presence_penalty=0.0,
+                        stop=[".END", "}"]
+                        #stop=["\n", " Human:"]
+                    )
+                    print("*********&&&&&&&&&&&&&&***********", response)
+                    string_unicode = response.choices[0].text
+                    string_encode = string_unicode.encode("ascii", "ignore")
+                    reply = string_encode.decode()
+                    prev_topic_stop = False
+                    sentence_type = 'w'
+                    prev_topic_pattern = []
+                    print(reply)
+                    if not reply:
+                        topic_n = -2
         if perform_goal == 1:
 			# Or choose between gp sentences in case the goal could be accomplished
             # Actually there is the intent reply -
@@ -512,11 +531,14 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
     return sentence_type, prev_topic_pattern, reply, topic_n, prev_topic_stop, modified_topics_likeliness
 
 
-@app.route("/CAIR_server/<string:sentence>")
+@app.route("/CAIR_server")
 # If the client performs a GET request, it means that the ID already exists.
-def get(sentence):
+def get():
     global goal_trigger_sentence
-    client_state = json.loads(request.data)
+    decompressed_data = zlib.decompress(request.data)
+    data = json.loads(decompressed_data.decode('utf-8'))
+    client_state = data['client_state']
+    sentence = data['sentence']
     # print(client_state)
 
     # Save all data related to the current client
@@ -625,8 +647,14 @@ def get(sentence):
     if sentence_type == 'g':
         goal_trigger_sentence = reply.split('&')[1].strip()
         reply = reply.split('&')[0]
-
-    return {"client_state": client_state, "intent_reply": intent_reply, "plan": plan, "reply": reply}
+    
+    data = {"client_state": client_state, "intent_reply": intent_reply, "plan": plan, "reply": reply}
+    encoded_data = json.dumps(data).encode('utf-8')
+    content = zlib.compress(encoded_data)
+    response = make_response(content)
+    response.headers['Content-length'] = len(content)
+    response.headers['Content-Encoding']='deflate'
+    return response
 
 
 @app.route("/CAIR_server", methods=["PUT"])
@@ -652,6 +680,7 @@ def put():
                     "flags": {absolute_start_topic: topic_sentences_flags}}
 
     return {"client_state": client_state, "reply": reply}
+
 
 
 if __name__ == "__main__":
