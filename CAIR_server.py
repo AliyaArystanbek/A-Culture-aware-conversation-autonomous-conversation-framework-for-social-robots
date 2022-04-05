@@ -1,17 +1,20 @@
+"""
+Author:      Lucrezia Grassi
+Email:       lucrezia.grassi@edu.unige.it
+Affiliation: Laboratorium, DIBRIS, University of Genoa, Italy
+Project:     CAIR
+
+This file contains the CAIR server
+"""
+
 from flask import Flask, request
 from flask_restful import Api
 from topics import *
 from topics_utils import *
 from CAIR_utils import *
-import os
-import openai
-import requests
-import json
 import requests
 import re
 
-openai.organization = "org-3afgCYP6KTHZic6sF9nBXAAt"
-openai.api_key = ""
 app = Flask(__name__)
 api = Api(app)
 
@@ -83,7 +86,9 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
     show_interest = False
 
     # Check the type of the previous sentence:
-    if prev_topic_sentence_type == 'q':
+
+
+     prev_topic_sentence_type == 'q':
         print("Expecting answer to a question")
         sentiment = 0
         # If the answer contains yes, change the likeliness of the previous topic to 1
@@ -158,60 +163,30 @@ def procedure(client_state, sentence, intent_reply, topics_sentences_flags, topi
         print("---------- REACHED END STATE ----------")
         # Check if the user's sentence contains keywords
         # Allow also topics with likeliness zero, if no other topics are found
-        print("***********", sentence)
-
         topic_n = main(sentence, id_reqs, topics_likeliness, req_par1, req_par2, tot_topic)
-
         common_sent = ''
         # If no topic is triggered by the user's sentence, choose it from top concepts
-        #print (topic_n)
-        if topic_n == -1:
-            a = (sentence)
-            print(a)
-            response = openai.Completion.create(
-                engine="ada",
-                prompt=str(a) + "\nAI:",
-                temperature=0.9,
-                max_tokens=150,
-                top_p=1,
-                frequency_penalty=0.0,
-                presence_penalty=0.6,
-                stop=["\n", " Human:", " AI:"]
-            )
-            print("*********&&&&&&&&&&&&&&***********", response)
-            string_unicode = response.choices[0].text
-            string_encode = string_unicode.encode("ascii", "ignore")
-            reply = string_encode.decode()
-            prev_topic_stop = False
-            sentence_type = 'e'
-            prev_topic_pattern = []
-            print(reply)
-
-            if not reply:
-                topic_n = -2
-
-        elif topic_n != -1 or topic_n == -2:
-            #print("No topic triggered by the user: choose from top concepts")   ####If topic_=-1 no keyword and "e" no brothers and childrens call OpenAI API
+        if topic_n == -1:  ######## If the topic -1 and now children and brother Call OPENAI API
+            print("No topic triggered by the user: choose from top concepts")
             topic_n = choose_topic(top_topics, topics_likeliness, False)
             # The sentence to be added at the beginning will be one of those to be put before a top concept
             common_sent = random.choice(common_sent_dict['r'])
-            # Start a new pattern for the new topic
-            sentence_type, prev_topic_pattern, reply, topic_n, prev_topic_stop, topics_sentences_flags = \
+        # Start a new pattern for the new topic
+        sentence_type, prev_topic_pattern, reply, topic_n, prev_topic_stop, topics_sentences_flags = \
             start_new_pattern(topic_n, prev_topic_stop, topics_father, topics_children, topics_brothers,
                               topics_likeliness, topics_sentences, topics_sentences_types, topics_sentences_flags)
-            # If there is a topic associated with the sentence (hence the common sentence has not been assigned yet)
-            if not common_sent:
-            #elif common_sent=="":
-                # Check if the likeliness of the topic is zero: add a "check" sentence before making the question:
-                if float(topics_likeliness[topic_n]) == 0.0:
-                    common_sent = "I thought you didn't like it..."
-                # If the topic doesn't have likeliness 0 or 1, add a common sentence among those to be said before questions
-                elif float(topics_likeliness[topic_n]) < 1.0:
-                    common_sent = random.choice(common_sent_dict['q'])
-                # If the topic has likeliness 1 it will say a positive or a wait depending on the pattern, without adding
-                # nothing before.
+        # If there is a topic associated with the sentence (hence the common sentence has not been assigned yet)
+        if not common_sent:
+            # Check if the likeliness of the topic is zero: add a "check" sentence before making the question:
+            if float(topics_likeliness[topic_n]) == 0.0:
+                common_sent = "I thought you didn't like it..."
+            # If the topic doesn't have likeliness 0 or 1, add a common sentence among those to be said before questions
+            elif float(topics_likeliness[topic_n]) < 1.0:
+                common_sent = random.choice(common_sent_dict['q'])
+            # If the topic has likeliness 1 it will say a positive or a wait depending on the pattern, without adding
+            # nothing before.
 
-            reply = common_sent + " " + reply
+        reply = common_sent + " " + reply
 
     # If sentence type w, c, g
     else:
@@ -367,9 +342,9 @@ def get(sentence):
     print("Update sentence type to: ", sentence_type)
     print("Update next sentences types to: ", prev_topic_pattern)
     print("Updating topic counter with topic: ", topic_n)
-    if topic_n >= 0:
-        modified_topics_sentences_flags[str(topic_n)] = topics_sentences_flags[topic_n]
-        print(topics_sentences_flags[topic_n])
+
+    modified_topics_sentences_flags[str(topic_n)] = topics_sentences_flags[topic_n]
+    print(topics_sentences_flags[topic_n])
     client_state = {"topic": topic_n,
                     "sentence_type": sentence_type,
                     "pattern": prev_topic_pattern,
